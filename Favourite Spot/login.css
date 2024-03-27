@@ -1,0 +1,70 @@
+*{
+    padding:2px;
+    margin:0;
+   }
+  body{
+    background:url("./tr.jpg");
+    background-size:cover;
+   
+  }
+  .login-form{
+     width:350px;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     position:absolute;
+     color:#fff;
+     }
+  .login-form h1 {
+     color:maroon;
+     font-size:40px;
+     text-align:center;
+     margin:40px 0;
+     font-family:'Times New Roman', Times, serif;
+     text-transform: uppercase;
+     }
+  .login-form lable{
+     font-size:25px;
+     margin:15px 0;
+     color:black;
+     padding-right: "5";
+    }
+  .login-form input {
+     font-size:16px;
+     width:100%;
+     padding:15px 10px;
+     border:0;
+     outline:none;
+     border-radius:20px;
+     color:black;
+    }
+  .mu{
+     font-size:18px;
+     font-weight:bold;
+     margin:20px 0;
+     padding-top: 600px;
+     padding-left: 685px;
+     padding-right: 70px;
+     width:50%;
+     border-radius:5px;
+    }
+  
+ 
+    .main{
+     width:1130px;
+     max-width:95%;
+     marign:0 auto;
+     display:flex;
+     align-items:center:
+     justify-content:space-around;
+  }
+  button {
+     padding: 5px 15px 5px;
+      border:none;
+      background-color:#03080c;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color:#fff;
+   }
+  

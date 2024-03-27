@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="reg.css">
+        
+        
+
+    </head>
+    <body>
+        <h1>BOOK YOUR FAV SPOT</h1>
+        
+            <form action="booked.html" method="POST">
+                <p>Firstname:</p>
+ <input type="text"  button class="btn btn-white" name="first" placeholder="Firstname" required>
+ 
+<br>
+  
+<p>Lastname:</p>
+ <input type="text"  button class="btn btn-white" name="last" placeholder="Lastname" required>
+ <br>
+
+<p>Mobile number:</p>
+   <input type="tel" id="telno" maxlength="10" button class="btn btn-white"  class="login-form" ValidationExpression="\d{10}" required><br>
+                <br><label><b><i>Preferred date</i></b></label>
+               <input type="date" placeholder="dd/mm/yyyy" required>
+                
+                
+                <p><b><i>Which spot you want to explore?</i></b></p>
+                    <input type="radio" name="cb"><label><b>Thanjavur</b></label><br>
+                    <input type="radio" name="cb"><label><b>Coimbatore</b></label><br>
+                    <input type="radio" name="cb"><label><b>Madurai</b></label><br>
+                    <p><b><i>Customize Your Facility</i></b></p>
+                <div class="br">
+                    <textarea name="message"  placeholder="Enter your text" rows="5" cols="156"></textarea><br>
+                 </div>
+                    
+                
+                <br><br>
+                </form>
+            <div class="center">
+                <button onclick="window.location.href='booked.html';" type="button">BOOK NOW</button>
+            </div>
+        
+            </body>
+</html>
